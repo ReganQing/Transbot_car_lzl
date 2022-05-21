@@ -1,0 +1,821 @@
+============================================================
+Time  2022/05/01 16:50:39 266 
+============================================================
+[2022/05/01 16:50:39 266] isr_1conn  2234 SYS_MSG_LOAD_CLOUD  
+[2022/05/01 16:50:39 266] isr_1conn  2255 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(f806fe30) 
+[2022/05/01 16:50:39 266] isr_1conn  2255 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(f806ff40) 
+[2022/05/01 16:50:39 266] isr_1conn  2255 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(f8070020) 
+[2022/05/01 16:50:39 266] isr_1conn  2255 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(f8070100) 
+[2022/05/01 16:50:39 267] isr_1conn  1411 onesoc  
+[2022/05/01 16:50:39 267] isr_1conn  1412 ASR_CLOUD_MSG_SSB  
+[2022/05/01 16:50:39 267] isr_1conn  1427 isr_1conn  cloud_cisr1P1HHBH4cvOZHnL04aalkGuewCreWsd  268436457  1573451740  
+[2022/05/01 16:50:39 267] isr_1conn  1497 req_lgi_id =  nil  
+[2022/05/01 16:50:39 267] isr_1conn  1498 not login!  
+[2022/05/01 16:50:39 267] isr_1conn  1631 nil  
+[2022/05/01 16:50:39 267] isr_1conn  1697 speex-wb  
+[2022/05/01 16:50:39 267] isr_1conn  1785 net_once_bytes  nil  
+[2022/05/01 16:50:39 267] isr_1conn  1790 need_encode  true  
+[2022/05/01 16:50:39 267] isr_1conn  1792 once bytes  122  
+[2022/05/01 16:50:39 269] isr_1conn  1816 User set url is   nil  
+[2022/05/01 16:50:39 269] config     91   select default  
+[2022/05/01 16:50:39 269] config     113  use general cloud  
+[2022/05/01 16:50:39 269] transport  645  paramkvsport is   nil  
+[2022/05/01 16:50:39 269] transport  657  ns_enable=  1  
+[2022/05/01 16:50:39 269] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2022/05/01 16:50:39 269] transport  665  net.nettype=  unknown  
+[2022/05/01 16:50:39 269] transport  675  url.full=  nil  
+[2022/05/01 16:50:39 269] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2022/05/01 16:50:39 269] transport  907  net type:  unknown  
+[2022/05/01 16:50:39 269] transport  908  net operator:  def  
+[2022/05/01 16:50:39 269] transport  909  use proxy:  false  
+[2022/05/01 16:50:39 269] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:39 269] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:39 269] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:39 269] transport  1179 try preferred port:  nil  
+[2022/05/01 16:50:39 269] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:39 269] transport  1086 name =   iat  
+[2022/05/01 16:50:39 269] ns         634  ntt=  unknown  
+[2022/05/01 16:50:39 269] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:39 269] ns         582  name server start  
+[2022/05/01 16:50:39 269] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:39 269] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:39 269] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:39 269] ns         555  net_type =  standard  
+[2022/05/01 16:50:39 269] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:39 269] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:39 269] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:39 269] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:39 269] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2022/05/01 16:50:39 274] network    245  dns resp  10214  ns1  
+[2022/05/01 16:50:39 274] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:39 274] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2022/05/01 16:50:39 274] network    465  prot_type  tcp  
+[2022/05/01 16:50:39 274] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:39 274] transport  77   dns_failed  
+[2022/05/01 16:50:39 274] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:39 274] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:39 274] transport  1304 [soc] connect   42.62.116.18  1028  
+[2022/05/01 16:50:39 275] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:39 275] network    418  soc error  10202  ns2  
+[2022/05/01 16:50:39 275] ns         253  name server http resp  10202  
+[2022/05/01 16:50:39 275] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:39 275] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:39 275] ns         116  use default ip  
+[2022/05/01 16:50:39 275] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:39 275] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:39 275] ns         670  no data in ns_q  
+[2022/05/01 16:50:39 275] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:39 275] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:39 275] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:39 275] transport  342  soc_conn_failed  
+[2022/05/01 16:50:39 275] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:39 276] transport  416  switch 80  
+[2022/05/01 16:50:39 276] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:39 570] isr_1conn  262  netperf:  99  
+[2022/05/01 16:50:39 622] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  1  
+[2022/05/01 16:50:39 622] isr_1conn  1868     
+[2022/05/01 16:50:39 733] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:39 841] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:39 842] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:39 871] isr_1conn  262  netperf:  80  
+[2022/05/01 16:50:39 954] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 088] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 172] isr_1conn  262  netperf:  71  
+[2022/05/01 16:50:40 199] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 284] transport  330  soc_10202_wait  
+[2022/05/01 16:50:40 285] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:40 287] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:40 289] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:40 289] transport  1179 try preferred port:  80  
+[2022/05/01 16:50:40 290] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:40 290] transport  1086 name =   iat  
+[2022/05/01 16:50:40 290] ns         634  ntt=  unknown  
+[2022/05/01 16:50:40 290] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:40 290] ns         582  name server start  
+[2022/05/01 16:50:40 290] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:40 290] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:40 290] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:40 290] ns         555  net_type =  standard  
+[2022/05/01 16:50:40 291] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:40 291] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:40 291] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:40 291] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:40 291] network    263  gethostbyname  hdns.xf-yun.com  ns3  
+[2022/05/01 16:50:40 293] network    245  dns resp  10214  ns3  
+[2022/05/01 16:50:40 293] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:40 293] network    445  gethttpresp2  42.62.116.18  80  ns4  
+[2022/05/01 16:50:40 293] network    465  prot_type  tcp  
+[2022/05/01 16:50:40 294] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:40 294] transport  77   dns_failed  
+[2022/05/01 16:50:40 295] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:40 295] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:40 295] transport  1304 [soc] connect   42.62.116.18  80  
+[2022/05/01 16:50:40 296] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:40 296] network    418  soc error  10202  ns4  
+[2022/05/01 16:50:40 296] ns         253  name server http resp  10202  
+[2022/05/01 16:50:40 296] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:40 296] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:40 296] ns         116  use default ip  
+[2022/05/01 16:50:40 296] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:40 296] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:40 296] ns         670  no data in ns_q  
+[2022/05/01 16:50:40 296] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:40 297] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:40 297] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:40 297] transport  342  soc_conn_failed  
+[2022/05/01 16:50:40 297] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:40 298] transport  416  switch 80  
+[2022/05/01 16:50:40 298] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:40 306] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 420] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 473] isr_1conn  262  netperf:  62  
+[2022/05/01 16:50:40 529] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 665] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 665] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 747] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 775] isr_1conn  262  netperf:  53  
+[2022/05/01 16:50:40 878] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:40 987] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 076] isr_1conn  262  netperf:  45  
+[2022/05/01 16:50:41 123] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 233] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 299] transport  330  soc_10202_wait  
+[2022/05/01 16:50:41 299] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:41 299] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:41 300] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:41 300] transport  1179 try preferred port:  80  
+[2022/05/01 16:50:41 300] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:41 300] transport  1086 name =   iat  
+[2022/05/01 16:50:41 300] ns         634  ntt=  unknown  
+[2022/05/01 16:50:41 300] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:41 300] ns         582  name server start  
+[2022/05/01 16:50:41 300] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:41 300] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:41 300] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:41 300] ns         555  net_type =  standard  
+[2022/05/01 16:50:41 300] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:41 300] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:41 300] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:41 300] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:41 300] network    263  gethostbyname  hdns.xf-yun.com  ns5  
+[2022/05/01 16:50:41 301] network    245  dns resp  10214  ns5  
+[2022/05/01 16:50:41 301] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:41 301] network    445  gethttpresp2  42.62.116.18  80  ns6  
+[2022/05/01 16:50:41 301] network    465  prot_type  tcp  
+[2022/05/01 16:50:41 301] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:41 301] transport  77   dns_failed  
+[2022/05/01 16:50:41 301] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:41 301] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:41 302] transport  1304 [soc] connect   42.62.116.18  80  
+[2022/05/01 16:50:41 302] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:41 302] network    418  soc error  10202  ns6  
+[2022/05/01 16:50:41 302] ns         253  name server http resp  10202  
+[2022/05/01 16:50:41 302] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:41 302] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:41 302] ns         116  use default ip  
+[2022/05/01 16:50:41 302] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:41 302] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:41 302] ns         670  no data in ns_q  
+[2022/05/01 16:50:41 302] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:41 302] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:41 302] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:41 302] transport  342  soc_conn_failed  
+[2022/05/01 16:50:41 302] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:41 303] transport  416  switch 80  
+[2022/05/01 16:50:41 303] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:41 337] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 377] isr_1conn  262  netperf:  36  
+[2022/05/01 16:50:41 454] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 454] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 555] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 678] isr_1conn  262  netperf:  26  
+[2022/05/01 16:50:41 688] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 797] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 911] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:41 980] isr_1conn  262  netperf:  19  
+[2022/05/01 16:50:42 021] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 133] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 134] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 265] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 282] isr_1conn  262  netperf:  11  
+[2022/05/01 16:50:42 304] transport  330  soc_10202_wait  
+[2022/05/01 16:50:42 304] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:42 304] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:42 307] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:42 307] transport  1179 try preferred port:  80  
+[2022/05/01 16:50:42 307] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:42 307] transport  1086 name =   iat  
+[2022/05/01 16:50:42 308] ns         634  ntt=  unknown  
+[2022/05/01 16:50:42 308] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:42 308] ns         582  name server start  
+[2022/05/01 16:50:42 308] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:42 308] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:42 308] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:42 308] ns         555  net_type =  standard  
+[2022/05/01 16:50:42 308] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:42 308] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:42 308] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:42 308] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:42 308] network    263  gethostbyname  hdns.xf-yun.com  ns7  
+[2022/05/01 16:50:42 309] network    245  dns resp  10214  ns7  
+[2022/05/01 16:50:42 309] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:42 309] network    445  gethttpresp2  42.62.116.18  80  ns8  
+[2022/05/01 16:50:42 309] network    465  prot_type  tcp  
+[2022/05/01 16:50:42 310] network    418  soc error  10202  ns8  
+[2022/05/01 16:50:42 310] ns         253  name server http resp  10202  
+[2022/05/01 16:50:42 310] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:42 310] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:42 310] ns         116  use default ip  
+[2022/05/01 16:50:42 311] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:42 311] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:42 311] transport  1304 [soc] connect   42.62.116.18  80  
+[2022/05/01 16:50:42 311] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:42 311] ns         670  no data in ns_q  
+[2022/05/01 16:50:42 311] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:42 312] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:42 312] transport  77   dns_failed  
+[2022/05/01 16:50:42 312] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:42 312] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:42 312] transport  342  soc_conn_failed  
+[2022/05/01 16:50:42 312] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:42 313] transport  416  switch 80  
+[2022/05/01 16:50:42 314] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:42 370] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 484] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 584] isr_1conn  262  netperf:  12  
+[2022/05/01 16:50:42 593] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 721] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 831] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 885] isr_1conn  262  netperf:  13  
+[2022/05/01 16:50:42 947] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:42 949] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 053] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 159] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 185] isr_1conn  262  netperf:  14  
+[2022/05/01 16:50:43 295] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 314] transport  330  soc_10202_wait  
+[2022/05/01 16:50:43 314] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:43 314] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:43 314] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:43 314] transport  1179 try preferred port:  80  
+[2022/05/01 16:50:43 314] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:43 314] transport  1086 name =   iat  
+[2022/05/01 16:50:43 314] ns         634  ntt=  unknown  
+[2022/05/01 16:50:43 314] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:43 314] ns         582  name server start  
+[2022/05/01 16:50:43 314] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:43 314] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:43 314] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:43 314] ns         555  net_type =  standard  
+[2022/05/01 16:50:43 314] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:43 314] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:43 314] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:43 314] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:43 315] network    263  gethostbyname  hdns.xf-yun.com  ns9  
+[2022/05/01 16:50:43 315] network    245  dns resp  10214  ns9  
+[2022/05/01 16:50:43 315] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:43 315] network    445  gethttpresp2  42.62.116.18  80  ns10  
+[2022/05/01 16:50:43 315] network    465  prot_type  tcp  
+[2022/05/01 16:50:43 315] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:43 315] transport  77   dns_failed  
+[2022/05/01 16:50:43 316] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:43 316] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:43 316] transport  1304 [soc] connect   42.62.116.18  80  
+[2022/05/01 16:50:43 316] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:43 316] network    418  soc error  10202  ns10  
+[2022/05/01 16:50:43 316] ns         253  name server http resp  10202  
+[2022/05/01 16:50:43 316] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:43 316] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:43 316] ns         116  use default ip  
+[2022/05/01 16:50:43 316] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:43 316] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:43 316] ns         670  no data in ns_q  
+[2022/05/01 16:50:43 316] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:43 316] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:43 316] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:43 317] transport  342  soc_conn_failed  
+[2022/05/01 16:50:43 317] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:43 317] transport  416  switch 80  
+[2022/05/01 16:50:43 317] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:43 405] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 486] isr_1conn  262  netperf:  14  
+[2022/05/01 16:50:43 509] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 618] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 751] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 751] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 785] isr_1conn  262  netperf:  14  
+[2022/05/01 16:50:43 858] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:43 968] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 083] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 086] isr_1conn  262  netperf:  15  
+[2022/05/01 16:50:44 209] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 278] transport  320  soc_10202_timeout  
+[2022/05/01 16:50:44 318] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 318] transport  330  soc_10202_wait  
+[2022/05/01 16:50:44 318] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:44 318] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:44 319] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:44 319] transport  1179 try preferred port:  80  
+[2022/05/01 16:50:44 319] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:44 319] transport  1086 name =   iat  
+[2022/05/01 16:50:44 319] ns         634  ntt=  unknown  
+[2022/05/01 16:50:44 319] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:44 319] ns         582  name server start  
+[2022/05/01 16:50:44 319] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:44 319] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:44 319] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:44 319] ns         555  net_type =  standard  
+[2022/05/01 16:50:44 319] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:44 319] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:44 319] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:44 319] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:44 319] network    263  gethostbyname  hdns.xf-yun.com  ns11  
+[2022/05/01 16:50:44 320] network    245  dns resp  10214  ns11  
+[2022/05/01 16:50:44 320] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:44 320] network    445  gethttpresp2  42.62.116.18  80  ns12  
+[2022/05/01 16:50:44 320] network    465  prot_type  tcp  
+[2022/05/01 16:50:44 320] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:44 320] transport  77   dns_failed  
+[2022/05/01 16:50:44 320] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:44 320] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:44 321] transport  1304 [soc] connect   42.62.116.18  80  
+[2022/05/01 16:50:44 321] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:44 321] network    418  soc error  10202  ns12  
+[2022/05/01 16:50:44 321] ns         253  name server http resp  10202  
+[2022/05/01 16:50:44 321] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:44 321] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:44 321] ns         116  use default ip  
+[2022/05/01 16:50:44 321] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:44 321] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:44 321] ns         670  no data in ns_q  
+[2022/05/01 16:50:44 321] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:44 321] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:44 321] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:44 321] transport  342  soc_conn_failed  
+[2022/05/01 16:50:44 321] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:44 322] transport  416  switch 80  
+[2022/05/01 16:50:44 322] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:44 387] isr_1conn  262  netperf:  15  
+[2022/05/01 16:50:44 432] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 543] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 549] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 670] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 688] isr_1conn  262  netperf:  16  
+[2022/05/01 16:50:44 779] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 891] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:44 988] isr_1conn  262  netperf:  16  
+[2022/05/01 16:50:44 997] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 130] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 241] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 241] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 288] isr_1conn  262  netperf:  16  
+[2022/05/01 16:50:45 324] transport  330  soc_10202_wait  
+[2022/05/01 16:50:45 324] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:45 324] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:45 324] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:45 324] transport  1179 try preferred port:  80  
+[2022/05/01 16:50:45 324] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:45 324] transport  1086 name =   iat  
+[2022/05/01 16:50:45 324] ns         634  ntt=  unknown  
+[2022/05/01 16:50:45 324] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:45 324] ns         582  name server start  
+[2022/05/01 16:50:45 324] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:45 324] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:45 324] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:45 324] ns         555  net_type =  standard  
+[2022/05/01 16:50:45 324] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:45 325] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:45 325] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:45 325] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:45 325] network    263  gethostbyname  hdns.xf-yun.com  ns13  
+[2022/05/01 16:50:45 325] network    245  dns resp  10214  ns13  
+[2022/05/01 16:50:45 325] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:45 325] network    445  gethttpresp2  42.62.116.18  80  ns14  
+[2022/05/01 16:50:45 325] network    465  prot_type  tcp  
+[2022/05/01 16:50:45 325] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:45 326] transport  77   dns_failed  
+[2022/05/01 16:50:45 326] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:45 326] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:45 326] transport  1304 [soc] connect   42.62.116.18  80  
+[2022/05/01 16:50:45 326] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:45 326] network    418  soc error  10202  ns14  
+[2022/05/01 16:50:45 326] ns         253  name server http resp  10202  
+[2022/05/01 16:50:45 326] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:45 326] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:45 326] ns         116  use default ip  
+[2022/05/01 16:50:45 326] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:45 326] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:45 326] ns         670  no data in ns_q  
+[2022/05/01 16:50:45 326] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:45 327] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:45 327] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:45 327] transport  342  soc_conn_failed  
+[2022/05/01 16:50:45 327] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:45 327] transport  416  switch 80  
+[2022/05/01 16:50:45 327] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:45 354] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 459] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 588] isr_1conn  262  netperf:  16  
+[2022/05/01 16:50:45 596] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 705] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 816] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:45 889] isr_1conn  262  netperf:  17  
+[2022/05/01 16:50:45 927] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 034] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 034] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 171] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 190] isr_1conn  262  netperf:  19  
+[2022/05/01 16:50:46 282] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 329] transport  330  soc_10202_wait  
+[2022/05/01 16:50:46 329] transport  1105 session.domain=  open.xf-yun.com  
+[2022/05/01 16:50:46 330] transport  1106 url.host=  open.xf-yun.com  
+[2022/05/01 16:50:46 332] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:46 332] transport  1179 try preferred port:  80  
+[2022/05/01 16:50:46 333] transport  1083 NAMESERVER START  
+[2022/05/01 16:50:46 333] transport  1086 name =   iat  
+[2022/05/01 16:50:46 333] ns         634  ntt=  unknown  
+[2022/05/01 16:50:46 333] transport  1089 trans,ns_inprog =  0  
+[2022/05/01 16:50:46 333] ns         582  name server start  
+[2022/05/01 16:50:46 333] ns         588  ns_sub =   iat  
+[2022/05/01 16:50:46 334] ns         596  ns_host =   open.xf-yun.com  
+[2022/05/01 16:50:46 334] ns         475  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:46 336] ns         555  net_type =  standard  
+[2022/05/01 16:50:46 336] ns         556  cmwapascmnet =  
+[2022/05/01 16:50:46 336] ns         557  uniwapasuninet =  
+[2022/05/01 16:50:46 336] ns         558  ctwapasctnet =  
+[2022/05/01 16:50:46 337] ns         576  host=  hdns.xf-yun.com  
+[2022/05/01 16:50:46 337] network    263  gethostbyname  hdns.xf-yun.com  ns15  
+[2022/05/01 16:50:46 341] network    245  dns resp  10214  ns15  
+[2022/05/01 16:50:46 341] ns         454  ns dns failed, err =   10214  
+[2022/05/01 16:50:46 341] network    445  gethttpresp2  42.62.116.18  80  ns16  
+[2022/05/01 16:50:46 341] network    465  prot_type  tcp  
+[2022/05/01 16:50:46 350] transport  296  [dns] [1] failed! 10214  
+[2022/05/01 16:50:46 350] transport  77   dns_failed  
+[2022/05/01 16:50:46 351] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:46 351] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:46 351] transport  1304 [soc] connect   42.62.116.18  80  
+[2022/05/01 16:50:46 354] transport  1316 mspsoc.open,prot_type=  tcp  
+[2022/05/01 16:50:46 355] network    418  soc error  10202  ns16  
+[2022/05/01 16:50:46 355] ns         253  name server http resp  10202  
+[2022/05/01 16:50:46 355] ns         412  ns response failed, err =  10202  
+[2022/05/01 16:50:46 355] ns         114  ns_host=  open.xf-yun.com  
+[2022/05/01 16:50:46 355] ns         116  use default ip  
+[2022/05/01 16:50:46 355] transport  1063 ns_ip =   42.62.116.18  
+[2022/05/01 16:50:46 355] transport  1064 ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:46 355] ns         670  no data in ns_q  
+[2022/05/01 16:50:46 355] ns         671  conti_ns,ns_inprog =   1  
+[2022/05/01 16:50:46 355] transport  542  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:46 355] transport  67   clear_ip ip_type =  def_iatopen.xf-yun.com  
+[2022/05/01 16:50:46 355] transport  342  soc_conn_failed  
+[2022/05/01 16:50:46 355] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:46 356] transport  416  switch 80  
+[2022/05/01 16:50:46 356] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:46 357] transport  58   transport=  table(f803a100) 
+[2022/05/01 16:50:46 357] transport  59   throw_exception  10202  101  MSC:[soc] [1] error 10202 101!  
+[2022/05/01 16:50:46 357] isr_1conn  735  transport exception  10202  
+[2022/05/01 16:50:46 357] isr_1conn  762  start a new session  
+[2022/05/01 16:50:46 358] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2022/05/01 16:50:46 358] transport  972  iplist not avail  
+[2022/05/01 16:50:46 358] transport  1332 [soc] disconnect   
+[2022/05/01 16:50:46 358] transport  991  transport clean  
+[2022/05/01 16:50:46 358] isr_1conn  1201 [session] send 1th audio  
+[2022/05/01 16:50:46 358] isr_1conn  1203 totalsz =   20740  
+[2022/05/01 16:50:46 358] isr_1conn  1206 start netperf_fs_timer  
+[2022/05/01 16:50:46 389] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 392] isr_1conn  1201 [session] send 2th audio  
+[2022/05/01 16:50:46 392] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:46 491] isr_1conn  262  netperf:  10  
+[2022/05/01 16:50:46 501] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 506] isr_1conn  1201 [session] send 3th audio  
+[2022/05/01 16:50:46 506] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:46 633] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 637] isr_1conn  1201 [session] send 4th audio  
+[2022/05/01 16:50:46 637] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:46 723] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 728] isr_1conn  1201 [session] send 5th audio  
+[2022/05/01 16:50:46 728] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:46 792] isr_1conn  262  netperf:  11  
+[2022/05/01 16:50:46 858] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 859] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 864] isr_1conn  1201 [session] send 6th audio  
+[2022/05/01 16:50:46 864] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:46 869] isr_1conn  1201 [session] send 7th audio  
+[2022/05/01 16:50:46 869] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:46 963] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:46 968] isr_1conn  1201 [session] send 8th audio  
+[2022/05/01 16:50:46 968] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:47 069] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 070] isr_1conn  1201 [session] send 9th audio  
+[2022/05/01 16:50:47 070] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:47 093] isr_1conn  262  netperf:  12  
+[2022/05/01 16:50:47 158] isr_1conn  307  send_ok_num, timer_num, send_average =   0  2  0  
+[2022/05/01 16:50:47 159] isr_1conn  310  netperf =   30  
+[2022/05/01 16:50:47 159] isr_1conn  311  start netperf_other_timer  
+[2022/05/01 16:50:47 178] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 180] isr_1conn  1201 [session] send 10th audio  
+[2022/05/01 16:50:47 180] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:47 315] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 320] isr_1conn  1201 [session] send 11th audio  
+[2022/05/01 16:50:47 320] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:47 394] isr_1conn  262  netperf:  13  
+[2022/05/01 16:50:47 425] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 430] isr_1conn  1201 [session] send 12th audio  
+[2022/05/01 16:50:47 430] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:47 535] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 541] isr_1conn  1201 [session] send 13th audio  
+[2022/05/01 16:50:47 541] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:47 561] isr_1conn  289  send_ok_num, timer_num, send_average =   0  3  0  
+[2022/05/01 16:50:47 562] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:47 646] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 648] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 652] isr_1conn  1201 [session] send 14th audio  
+[2022/05/01 16:50:47 652] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:47 656] isr_1conn  1201 [session] send 15th audio  
+[2022/05/01 16:50:47 657] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:47 695] isr_1conn  262  netperf:  14  
+[2022/05/01 16:50:47 778] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 784] isr_1conn  1201 [session] send 16th audio  
+[2022/05/01 16:50:47 784] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:47 887] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 892] isr_1conn  1201 [session] send 17th audio  
+[2022/05/01 16:50:47 892] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:47 962] isr_1conn  289  send_ok_num, timer_num, send_average =   0  4  0  
+[2022/05/01 16:50:47 963] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:47 996] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:47 997] isr_1conn  262  netperf:  15  
+[2022/05/01 16:50:48 002] isr_1conn  1201 [session] send 18th audio  
+[2022/05/01 16:50:48 002] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:48 102] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 103] isr_1conn  1201 [session] send 19th audio  
+[2022/05/01 16:50:48 103] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:48 238] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 243] isr_1conn  1201 [session] send 20th audio  
+[2022/05/01 16:50:48 243] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:48 298] isr_1conn  262  netperf:  17  
+[2022/05/01 16:50:48 350] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 355] isr_1conn  1201 [session] send 21th audio  
+[2022/05/01 16:50:48 355] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:48 364] isr_1conn  289  send_ok_num, timer_num, send_average =   0  5  0  
+[2022/05/01 16:50:48 365] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:48 455] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 455] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 456] isr_1conn  1201 [session] send 22th audio  
+[2022/05/01 16:50:48 456] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:48 458] isr_1conn  1201 [session] send 23th audio  
+[2022/05/01 16:50:48 458] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:48 566] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 571] isr_1conn  1201 [session] send 24th audio  
+[2022/05/01 16:50:48 571] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:48 599] isr_1conn  262  netperf:  17  
+[2022/05/01 16:50:48 676] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 681] isr_1conn  1201 [session] send 25th audio  
+[2022/05/01 16:50:48 681] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:48 765] isr_1conn  289  send_ok_num, timer_num, send_average =   0  6  0  
+[2022/05/01 16:50:48 765] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:48 805] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 806] isr_1conn  1201 [session] send 26th audio  
+[2022/05/01 16:50:48 806] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:48 899] isr_1conn  262  netperf:  18  
+[2022/05/01 16:50:48 920] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:48 925] isr_1conn  1201 [session] send 27th audio  
+[2022/05/01 16:50:48 925] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:49 030] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 035] isr_1conn  1201 [session] send 28th audio  
+[2022/05/01 16:50:49 035] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:49 136] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 137] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 138] isr_1conn  1201 [session] send 29th audio  
+[2022/05/01 16:50:49 138] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:49 139] isr_1conn  1201 [session] send 30th audio  
+[2022/05/01 16:50:49 139] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:49 165] isr_1conn  289  send_ok_num, timer_num, send_average =   0  7  0  
+[2022/05/01 16:50:49 166] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:49 201] isr_1conn  262  netperf:  19  
+[2022/05/01 16:50:49 246] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 248] isr_1conn  1201 [session] send 31th audio  
+[2022/05/01 16:50:49 248] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:49 355] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 357] isr_1conn  1201 [session] send 32th audio  
+[2022/05/01 16:50:49 357] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:49 487] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 489] isr_1conn  1201 [session] send 33th audio  
+[2022/05/01 16:50:49 489] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:49 503] isr_1conn  262  netperf:  11  
+[2022/05/01 16:50:49 566] isr_1conn  289  send_ok_num, timer_num, send_average =   0  8  0  
+[2022/05/01 16:50:49 566] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:49 594] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 595] isr_1conn  1201 [session] send 34th audio  
+[2022/05/01 16:50:49 595] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:49 731] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 736] isr_1conn  1201 [session] send 35th audio  
+[2022/05/01 16:50:49 736] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:49 803] isr_1conn  262  netperf:  12  
+[2022/05/01 16:50:49 836] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 837] isr_1conn  1201 [session] send 36th audio  
+[2022/05/01 16:50:49 837] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:49 945] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 946] isr_1conn  1201 [session] send 37th audio  
+[2022/05/01 16:50:49 946] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:49 947] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:49 948] isr_1conn  1201 [session] send 38th audio  
+[2022/05/01 16:50:49 948] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:49 966] isr_1conn  289  send_ok_num, timer_num, send_average =   0  9  0  
+[2022/05/01 16:50:49 966] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:50 059] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 064] isr_1conn  1201 [session] send 39th audio  
+[2022/05/01 16:50:50 064] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:50 104] isr_1conn  262  netperf:  13  
+[2022/05/01 16:50:50 188] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 189] isr_1conn  1201 [session] send 40th audio  
+[2022/05/01 16:50:50 189] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:50 302] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 307] isr_1conn  1201 [session] send 41th audio  
+[2022/05/01 16:50:50 307] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:50 366] isr_1conn  289  send_ok_num, timer_num, send_average =   0  10  0  
+[2022/05/01 16:50:50 367] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:50 405] isr_1conn  262  netperf:  14  
+[2022/05/01 16:50:50 407] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 409] isr_1conn  1201 [session] send 42th audio  
+[2022/05/01 16:50:50 409] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:50 520] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 525] isr_1conn  1201 [session] send 43th audio  
+[2022/05/01 16:50:50 525] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:50 630] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 634] isr_1conn  1201 [session] send 44th audio  
+[2022/05/01 16:50:50 635] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:50 707] isr_1conn  262  netperf:  16  
+[2022/05/01 16:50:50 741] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 748] isr_1conn  1201 [session] send 45th audio  
+[2022/05/01 16:50:50 748] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:50 749] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 753] isr_1conn  1201 [session] send 46th audio  
+[2022/05/01 16:50:50 753] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:50 767] isr_1conn  289  send_ok_num, timer_num, send_average =   0  11  0  
+[2022/05/01 16:50:50 767] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:50 873] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 878] isr_1conn  1201 [session] send 47th audio  
+[2022/05/01 16:50:50 878] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:50 982] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:50 985] isr_1conn  1201 [session] send 48th audio  
+[2022/05/01 16:50:50 985] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:51 008] isr_1conn  262  netperf:  17  
+[2022/05/01 16:50:51 091] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 094] isr_1conn  1201 [session] send 49th audio  
+[2022/05/01 16:50:51 094] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:51 168] isr_1conn  289  send_ok_num, timer_num, send_average =   0  12  0  
+[2022/05/01 16:50:51 168] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:51 201] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 205] isr_1conn  1201 [session] send 50th audio  
+[2022/05/01 16:50:51 205] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:51 309] isr_1conn  262  netperf:  17  
+[2022/05/01 16:50:51 334] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 337] isr_1conn  1201 [session] send 51th audio  
+[2022/05/01 16:50:51 337] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:51 438] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 439] isr_1conn  1201 [session] send 52th audio  
+[2022/05/01 16:50:51 439] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:51 553] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 553] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 554] isr_1conn  1201 [session] send 53th audio  
+[2022/05/01 16:50:51 554] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:51 556] isr_1conn  1201 [session] send 54th audio  
+[2022/05/01 16:50:51 556] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:51 569] isr_1conn  289  send_ok_num, timer_num, send_average =   0  13  0  
+[2022/05/01 16:50:51 569] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:51 610] isr_1conn  262  netperf:  19  
+[2022/05/01 16:50:51 656] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 657] isr_1conn  1201 [session] send 55th audio  
+[2022/05/01 16:50:51 657] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:51 764] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 765] isr_1conn  1201 [session] send 56th audio  
+[2022/05/01 16:50:51 765] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:51 897] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:51 898] isr_1conn  1201 [session] send 57th audio  
+[2022/05/01 16:50:51 898] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:51 911] isr_1conn  262  netperf:  19  
+[2022/05/01 16:50:51 970] isr_1conn  289  send_ok_num, timer_num, send_average =   0  14  0  
+[2022/05/01 16:50:51 970] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:52 006] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 007] isr_1conn  1201 [session] send 58th audio  
+[2022/05/01 16:50:52 007] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:52 138] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 140] isr_1conn  1201 [session] send 59th audio  
+[2022/05/01 16:50:52 140] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:52 211] isr_1conn  262  netperf:  10  
+[2022/05/01 16:50:52 253] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 253] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 254] isr_1conn  1201 [session] send 60th audio  
+[2022/05/01 16:50:52 254] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:52 255] isr_1conn  1201 [session] send 61th audio  
+[2022/05/01 16:50:52 255] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:52 361] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 365] isr_1conn  1201 [session] send 62th audio  
+[2022/05/01 16:50:52 365] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:52 372] isr_1conn  289  send_ok_num, timer_num, send_average =   0  15  0  
+[2022/05/01 16:50:52 372] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:52 469] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 470] isr_1conn  1201 [session] send 63th audio  
+[2022/05/01 16:50:52 470] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:52 512] isr_1conn  262  netperf:  11  
+[2022/05/01 16:50:52 581] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 586] isr_1conn  1201 [session] send 64th audio  
+[2022/05/01 16:50:52 586] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:52 692] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 697] isr_1conn  1201 [session] send 65th audio  
+[2022/05/01 16:50:52 697] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:52 773] isr_1conn  289  send_ok_num, timer_num, send_average =   0  16  0  
+[2022/05/01 16:50:52 773] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:52 814] isr_1conn  262  netperf:  12  
+[2022/05/01 16:50:52 826] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 828] isr_1conn  1201 [session] send 66th audio  
+[2022/05/01 16:50:52 828] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:52 934] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:52 938] isr_1conn  1201 [session] send 67th audio  
+[2022/05/01 16:50:52 938] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:53 039] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 039] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 040] isr_1conn  1201 [session] send 68th audio  
+[2022/05/01 16:50:53 040] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:53 042] isr_1conn  1201 [session] send 69th audio  
+[2022/05/01 16:50:53 042] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:53 114] isr_1conn  262  netperf:  13  
+[2022/05/01 16:50:53 151] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 154] isr_1conn  1201 [session] send 70th audio  
+[2022/05/01 16:50:53 154] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:53 174] isr_1conn  289  send_ok_num, timer_num, send_average =   0  17  0  
+[2022/05/01 16:50:53 174] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:53 284] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 286] isr_1conn  1201 [session] send 71th audio  
+[2022/05/01 16:50:53 286] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:53 388] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 389] isr_1conn  1201 [session] send 72th audio  
+[2022/05/01 16:50:53 389] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:53 415] isr_1conn  262  netperf:  13  
+[2022/05/01 16:50:53 497] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 498] isr_1conn  1201 [session] send 73th audio  
+[2022/05/01 16:50:53 498] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:53 575] isr_1conn  289  send_ok_num, timer_num, send_average =   0  18  0  
+[2022/05/01 16:50:53 575] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:53 611] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 615] isr_1conn  1201 [session] send 74th audio  
+[2022/05/01 16:50:53 615] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:53 715] isr_1conn  262  netperf:  14  
+[2022/05/01 16:50:53 740] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 741] isr_1conn  1201 [session] send 75th audio  
+[2022/05/01 16:50:53 741] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:53 851] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 851] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 852] isr_1conn  1201 [session] send 76th audio  
+[2022/05/01 16:50:53 852] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:53 853] isr_1conn  1201 [session] send 77th audio  
+[2022/05/01 16:50:53 853] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:53 964] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:53 966] isr_1conn  1201 [session] send 78th audio  
+[2022/05/01 16:50:53 966] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:53 976] isr_1conn  289  send_ok_num, timer_num, send_average =   0  19  0  
+[2022/05/01 16:50:53 976] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:54 016] isr_1conn  262  netperf:  14  
+[2022/05/01 16:50:54 075] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:54 080] isr_1conn  1201 [session] send 79th audio  
+[2022/05/01 16:50:54 080] isr_1conn  1203 totalsz =   366  
+[2022/05/01 16:50:54 185] isr_1conn  1851 ASR_CLOUD_MSG_AUW  3200  2  
+[2022/05/01 16:50:54 189] isr_1conn  1201 [session] send 80th audio  
+[2022/05/01 16:50:54 190] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:54 282] isr_1conn  1851 ASR_CLOUD_MSG_AUW  2880  4  
+[2022/05/01 16:50:54 282] isr_1conn  1905 starttimer status_cb_timeout, timeout is:  3000  
+[2022/05/01 16:50:54 282] isr_1conn  1914 audio len:  473280  
+[2022/05/01 16:50:54 282] isr_1conn  1917 drate:   0  
+[2022/05/01 16:50:54 282] isr_1conn  1920 user  
+[2022/05/01 16:50:54 283] isr_1conn  1929 drate, start local.  
+[2022/05/01 16:50:54 288] isr_1conn  1201 [session] send 81th audio  
+[2022/05/01 16:50:54 288] isr_1conn  1203 totalsz =   244  
+[2022/05/01 16:50:54 289] isr_1conn  1173 no_audio is true  
+[2022/05/01 16:50:54 290] isr_1conn  1201 [session] send 82th audio  
+[2022/05/01 16:50:54 290] isr_1conn  1203 totalsz =   61  
+[2022/05/01 16:50:54 290] isr_1conn  1229 [session] send last audio!  
+[2022/05/01 16:50:54 317] isr_1conn  262  netperf:  15  
+[2022/05/01 16:50:54 378] isr_1conn  289  send_ok_num, timer_num, send_average =   0  20  0  
+[2022/05/01 16:50:54 378] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:54 617] isr_1conn  262  netperf:  16  
+[2022/05/01 16:50:54 778] isr_1conn  289  send_ok_num, timer_num, send_average =   0  21  0  
+[2022/05/01 16:50:54 778] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:54 919] isr_1conn  262  netperf:  17  
+[2022/05/01 16:50:55 179] isr_1conn  289  send_ok_num, timer_num, send_average =   0  22  0  
+[2022/05/01 16:50:55 179] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:55 219] isr_1conn  262  netperf:  17  
+[2022/05/01 16:50:55 520] isr_1conn  262  netperf:  18  
+[2022/05/01 16:50:55 581] isr_1conn  289  send_ok_num, timer_num, send_average =   0  23  0  
+[2022/05/01 16:50:55 581] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:55 820] isr_1conn  262  netperf:  19  
+[2022/05/01 16:50:55 981] isr_1conn  289  send_ok_num, timer_num, send_average =   0  24  0  
+[2022/05/01 16:50:55 981] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:56 121] isr_1conn  262  netperf:  10  
+[2022/05/01 16:50:56 382] isr_1conn  289  send_ok_num, timer_num, send_average =   0  25  0  
+[2022/05/01 16:50:56 382] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:56 422] isr_1conn  262  netperf:  11  
+[2022/05/01 16:50:56 722] isr_1conn  262  netperf:  11  
+[2022/05/01 16:50:56 784] isr_1conn  289  send_ok_num, timer_num, send_average =   0  26  0  
+[2022/05/01 16:50:56 784] isr_1conn  292  netperf =   30  
+[2022/05/01 16:50:57 023] isr_1conn  262  netperf:  12  
+[2022/05/01 16:50:57 184] isr_1conn  289  send_ok_num, timer_num, send_average =   0  27  0  
+[2022/05/01 16:50:57 184] isr_1conn  292  netperf =   30  

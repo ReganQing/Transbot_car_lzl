@@ -1,0 +1,21 @@
+[2022/05/01 16:51:11 422] transport  1604 is_update  true  
+[2022/05/01 16:51:11 422] isr_1conn  399  [trans] [isr_1conncisr1P1HHBH4cvOSHnRRnaaC-FWdTHpzPpJ] readable  
+[2022/05/01 16:51:11 422] isr_1conn  403  size =   183  
+[2022/05/01 16:51:11 422] isr_1conn  412  send_ok_num, timer_num, send_average =   12383  10  1238  
+[2022/05/01 16:51:11 423] isr_1conn  415  netperf =   90  
+[2022/05/01 16:51:11 423] isr_1conn  419  start netperf_grs_timer  
+[2022/05/01 16:51:11 423] isr_1conn  435  response  
+[2022/05/01 16:51:11 424] isr_1conn  483  resp_syncid =  41  
+[2022/05/01 16:51:11 424] isr_1conn  655  41  5  2  
+[2022/05/01 16:51:11 424] isr_1conn  662  [session] got last result  
+[2022/05/01 16:51:11 424] isr_1conn  667  time from last audio to last result:  27  .  
+[2022/05/01 16:51:11 424] isr_1conn  668  time from session-begin to session-end:  4189  .  
+[2022/05/01 16:51:11 428] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2022/05/01 16:51:11 428] transport  981  cached ip is confirmed  
+[2022/05/01 16:51:11 428] transport  1332 [soc] disconnect   
+[2022/05/01 16:51:11 428] transport  991  transport clean  
+[2022/05/01 16:51:11 429] isr_1conn  677  [session] got 1th result  
+[2022/05/01 16:51:11 429] isr_1conn  689  time from first audio to first result:  3919  .  
+[2022/05/01 16:51:11 611] isr_1conn  2060 ASR_CLOUD_MSG_SSE  
+[2022/05/01 16:51:11 614] isr_1conn  1276 isr_1conn session info  
+[2022/05/01 16:51:11 623] isr_1conn  2203 session finished! ret =   0  

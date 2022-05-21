@@ -1,0 +1,2 @@
+learning_launch:learning_parameter:learning_service:learning_tf:learning_topic:robot_voice:transbot_lzl
+-DCATKIN_DEVEL_PREFIX=/home/zhuolong/lzl/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zhuolong/lzl/catkin_ws/install -G Unix Makefiles

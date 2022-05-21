@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetson/lzl_Transbot/catkin_ws/devel/setup.sh

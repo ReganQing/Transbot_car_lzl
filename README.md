@@ -6,11 +6,14 @@ DIY control car
 
 ## 代码目录：
 
-- lzl_ubuntu18.04                虚拟机/笔记本终端代码仓
+- lzl_ubuntu18.04                
+   虚拟机/笔记本终端代码仓
 
-- lzl_Transbot                   小车Transbot代码仓
+- lzl_Transbot                   
+   小车Transbot代码仓
 
-- Linux_sdk_lzl_7e54b433          讯飞SDK开源代码
+- Linux_sdk_lzl_7e54b433          
+   讯飞SDK开源代码
 
 
 

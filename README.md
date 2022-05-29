@@ -18,7 +18,7 @@ DIY control car
 
 
 ## 语音控制小车demo
-  [实现一款简易版语音控制 Transbot 小车运动的demo]([https://blog.csdn.net/m0_65173341/article/details/124784788](https://blog.csdn.net/m0_65173341/article/details/124770009))
+  [实现一款简易版语音控制 Transbot 小车运动的demo](https://blog.csdn.net/m0_65173341/article/details/124770009)
 
 
 
